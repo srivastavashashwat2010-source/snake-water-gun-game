@@ -1,37 +1,25 @@
-📘 Snake • Water • Gun — Tkinter Edition
-
-A friendly and humanized GUI version of the classic Snake–Water–Gun game, built with Python and Tkinter.
-This project adds emotions, fun text, emoji reactions, and a clean UI to make the game feel more human and natural.
-
-🚀 Features
-
-✅ Humanized UI & messages (friendly, natural text)
-✅ Emoji-based choices (🐍 💧 🔫)
-✅ Simple GUI using Tkinter
-✅ Scoreboard for both player and computer
-✅ Light and pleasant theme
-✅ Instant result after each round
-
-🎮 How to Play
-
-Pick one option: Snake, Water, or Gun
-
-Computer randomly picks its choice
-
-Rules:
-
-Snake 🐍 drinks Water 💧 → Snake wins
-
-Water 💧 damages Gun 🔫 → Water wins
-
-Gun 🔫 kills Snake 🐍 → Gun wins
-
-Same choice → Draw
-
-Score updates automatically
-
-🧩 Game Logic Mapping
-Symbol	Meaning
-1	Snake 🐍
--1	Water 💧
-0	Gun 🔫
+Snake • Water • Gun — Tkinter Game Project Overview
+This is a fun, lightweight Snake–Water–Gun game built with Python’s Tkinter library. You
+choose one of the three options, and the computer randomly picks its move. The game
+displays the result, updates the score, and keeps everything smooth and simple.
+Features :-
+• Clean Tkinter interface
+• Emoji-style buttons (Snake, Water, Gun)
+• Randomized computer choice
+• Automatic score updating
+• Instant win/lose/draw results
+• Beginner-friendly code structure
+Technologies & Tools Used :-
+• Python 3.x
+• Tkinter
+• random module
+• VS Code
+Installation & Running :-
+1. Ensure Python 3.8+ is installed.
+2. Place all project files in one folder.
+3. Run using: python main.py
+Testing Instructions:-
+• Click each button and confirm results update correctly.
+• Make sure the computer's choice displays.
+• Score should increase or stay unchanged for draws.
+• Try rapid clicks to ensure stability
